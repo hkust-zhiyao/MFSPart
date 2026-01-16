@@ -8,15 +8,15 @@ All datasets are obtained from the open-source links provided by the following p
 *TopoPart: a Multi-level Topology-Driven Partitioning Framework for Multi-FPGA Systems* (ICCAD 2021).
 
 ## Compilation
-Execute the following commands to compile:
+Use the following command to compile the desired version (e.g., MFSPart_Fixed, MFSPart_Non-Fixed, etc.):
 
 ```bash
-g++ -o MFSPart_Fixed MFSPart_Fixed.cpp -std=c++17 -I ~/research/partition/eigen-3.4.0/
+g++ -o <output_name> <source_file>.cpp -std=c++17 -I ~/research/partition/eigen-3.4.0/
 ```
 
-## Executioin
+## Execution
 To run the framework:
 
 ```bash
-./MFSPart_Fixed <data_name>
+./<output_name> <data_name>
 ```
