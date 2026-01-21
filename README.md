@@ -20,3 +20,6 @@ To run the framework:
 ```bash
 ./<output_name> <data_name>
 ```
+
+## Acknowledgement
+We gratefully acknowledge Dr. Benzheng Li for kindly answering our questions about his paper and providing valuable clarifications.
